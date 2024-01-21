@@ -25,6 +25,7 @@
                         "blue-color": '#23A6F0',
                         "gray-color": '#DEDEDE',
                         "gray-text": '#6C6C6C',
+                        "footer-bg": '#0B0D17',
                     }
                 }
             }
@@ -203,7 +204,7 @@
             <!-- Review Container -->
             <div class="grid place-items-center gap-11 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
                 <!-- Review-1 -->
-                <div class="card w-96 bg-base-100 border border-gray-color py-9 px-7 rounded pb-0">
+                <div class="card bg-base-100 border border-gray-color py-9 px-7 rounded pb-0">
                     <figure class="mb-8"><img class="w-36 h-36" src="./images/others/user-1.png" alt="Shoes" /></figure>
                     <div class="card-body p-0 space-y-4">
                         <p class="text-gray-text text-justify">Slate helps you see how
@@ -224,7 +225,7 @@
                     </div>
                 </div>
                 <!-- Review-2 -->
-                <div class="card w-96 bg-base-100 border border-gray-color py-9 px-7 rounded pb-0">
+                <div class="card bg-base-100 border border-gray-color py-9 px-7 rounded pb-0">
                     <figure class="mb-8"><img class="w-36 h-36" src="./images/others/user-2.png" alt="Shoes" /></figure>
                     <div class="card-body p-0 space-y-4">
                         <p class="text-gray-text text-justify">Slate helps you see how
@@ -245,7 +246,7 @@
                     </div>
                 </div>
                 <!-- Review-1 -->
-                <div class="card w-96 bg-base-100 border border-gray-color py-9 px-7 rounded pb-0">
+                <div class="card bg-base-100 border border-gray-color py-9 px-7 rounded pb-0">
                     <figure class="mb-8"><img class="w-36 h-36" src="./images/others/user-3.png" alt="Shoes" /></figure>
                     <div class="card-body p-0 space-y-4">
                         <p class="text-gray-text text-justify">Slate helps you see how
@@ -331,8 +332,36 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer bg-footer-bg py-8 lg:py-24">
+        <div class="w-11/12 mx-auto md:w-9/12 md:container flex justify-between flex-col lg:flex-row">
+            <aside class="text-white">
+                <ul class="flex gap-6">
+                    <li><a href="#">Download Now</a></li>
+                    <li><a href="#">License</a></li>
+                </ul>
+                <ul class="flex gap-6 mt-3 flex-wrap">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <p class="text-[#D9DBE1] mt-6">© 2020 bike. All rights reserved</p>
+            </aside>
+            <nav class="space-y-4">
+                <header class="text-[#D9DBE1] capitalize text-lg font-medium">Get the App</header>
+                <div class="grid grid-cols-1 gap-4">
+                    <a>
+                        <img class="w-36" src="./images/others/android.png" alt="">
+                    </a>
+                    <a>
+                        <img class="w-36" src="./images/others/ios.png" alt="">
+                    </a>
+                    
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
 
